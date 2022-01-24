@@ -1,0 +1,65 @@
+body{
+    border: 90px;
+    width: 90%;
+    height: 90%;
+    font-family: Playfair+Display;
+
+}
+header{ 
+    
+    background-image: url("../img/image\ 1.svg");
+    display: inline-block;
+    position: relative;
+    height: 900px;
+    left: auto;
+    top: auto;
+    width: 100%;
+    background-size: 100%;
+    
+}
+header p{
+    font-size: 80px;
+    color: aliceblue;
+    Top: 292px;
+    width: 704px;
+    Top: 80px;
+    left: 50px;
+   
+}
+header h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+.image.header{
+    font-size: 130px;
+}
+
+.aside-class{
+    background-image: url("../img/Rectangle\ 20.svg");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+}
+.aside-class h3{
+    font-size: 50px;
+    color: antiquewhite;
+}
+.aside-class h4{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.section-class{
+    background-image: url("../img/Buli.jpg");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+}
+.section-class h3{
+font-size: 50px;
+color: antiquewhite;
+}
+.section-class h4{
+    font-size: 25px;
+    color: antiquewhite;
+}
