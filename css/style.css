@@ -1,8 +1,10 @@
 body{
-    border: 90px;
-    width: 90%;
-    height: 90%;
-    font-family: Playfair+Display;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    vertical-align: auto;
+ 
 
 }
 header{ 
@@ -10,25 +12,123 @@ header{
     background-image: url("../img/image\ 1.svg");
     display: inline-block;
     position: relative;
-    height: 900px;
-    left: auto;
-    top: auto;
+    height:900px;
+    left: 0px;
+    top: 0px;
     width: 100%;
     background-size: 100%;
     
 }
-header p{
-    font-size: 80px;
-    color: aliceblue;
-    Top: 292px;
-    width: 704px;
-    Top: 80px;
-    left: 50px;
-   
+.section2{
+    max-width: 90%;
 }
-header h3{
-    font-size: 15px;
-    color: aliceblue;
+.section3{
+    max-width: 90%;
+}
+.section4{
+    max-width: 90%;
+}
+.title{
+    position: relative;
+    width: 200px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 28px;
+    line-height: 75%;
+    left: 686px;
+    top: 30px;
+}
+.img-caffe{
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+.cafe-magico{
+    position: relative;
+    left: 1027px;
+    bottom: 481px;
+    width: 339px;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 60%;
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    color: #0b1d03;
+}
+.frase-cafe-magico{
+    position: relative;
+    left: 1024px;
+    width: 539px;
+    height: -17px;
+    bottom: 470px;
+    font-size: 32px;
+    color: #0b1d03;
+}
+.muito-mais{
+    position: relative;
+    width: 581px;
+    height: 60px;
+    left: 89px;
+    bottom: 93px;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 80%;
+    font-style: bold;
+    font-family: 'Playfair Display', serif;
+    color: #0b1d03;
+}
+.h3-muitomais{
+    position: relative;
+    width: 581px;
+    height: 120px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 40px;
+    bottom: 135px;
+    left: 83px;
+    align-items: left;
+    color: #0b1d03;
+}
+.img-cafe2{
+    position: relative;
+    width: 704px;
+    height: 560px;
+    left: 816px;
+    bottom: 337px;
+}
+.variedades{
+    position: relative;
+    width: 476px;
+    height: 60px;
+    bottom: 109px;
+    left: 15px;
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    line-height: 60px;
+    line-height: 80%;
+    align-items: left;
+    color: #a0996c;
+}
+.header-text{
+    position: relative;
+    width: 704px;
+    height: 264;
+    top: 119px;
+    left: 92px;
+    font-size: 88px;
+    line-height: 83px;   
+    color: white; 
+}
+.header-h3{
+    position: relative;
+    font-style:medium;
+    left: 105px;
+    top:70px;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
 }
 .image.header{
     font-size: 130px;
@@ -39,14 +139,24 @@ header h3{
     background-repeat: no-repeat;
     width: 700px;
     height: 700px;
+    
+    left: 15px;
+    position: relative;
+
 }
 .aside-class h3{
     font-size: 50px;
     color: antiquewhite;
+    position: relative;
+    left: 41px;
+    top: 385px;
 }
 .aside-class h4{
     font-size: 25px;
     color: antiquewhite;
+    position: relative;
+    left: 44px;
+    top: 362px;
 }
 
 .section-class{
@@ -54,12 +164,301 @@ header h3{
     background-repeat: no-repeat;
     width: 700px;
     height: 700px;
+    position: relative;
+    bottom: 750px;
+    left: 861px;
 }
 .section-class h3{
 font-size: 50px;
 color: antiquewhite;
+position: relative;
+top: 384px;
+left: 43px;
 }
 .section-class h4{
     font-size: 25px;
     color: antiquewhite;
+    position: relative;
+    top: 359px;
+    left: 39px;
+}
+.ruanda{
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    width: 300px;
+    height: 28px;
+    top: 30px;
+    left: 63px;
+    font-size: 24px;
+    font-style: medium;
+    color: #0b1d03;
+
+}
+.cafe{
+    position: relative;
+    width: 172px;
+    height: 216px;
+    top: 50px;
+    left: 112px;
+}
+.preco{
+    position: relative;
+    width: 84px;
+    height: 40px;
+    top: 30px;
+    left: 112px;
+    font-size: 32px;
+    font-style: bold;
+    color: #0b1d03;
+}
+.preco2{
+    position: relative;
+    width: 66px;
+    height: 28px;
+    left: 194px;
+    top: -32px;
+    font-size: 24px;
+    color: #969696;
+
+}
+.button-carrinho1{
+    position: relative;
+    width: 395px;
+    top: 7px;
+    left: 34px;
+    height: 76px;
+    border-radius: 4px;
+    background-color: #0b1d03;
+    font-size: 20px;
+    align-items: center;
+    font-style: bold;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.button-carrinho{
+    position: relative;
+    width: 395px;
+    top: 50px;
+    left: 34px;
+    height: 76px;
+    border-radius: 4px;
+    background-color: #0b1d03;
+    font-size: 20px;
+    align-items: center;
+    font-style: bold;
+    line-height: 28px;
+    color: #ffffff;
+
+}
+.div-cafes1{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+}
+.div-cafes2{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+    bottom: 580px;
+    left: 545px;
+}
+.div-cafes3{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+    bottom: 1158px;
+    left: 1099px;
+}
+.div-cafes4{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    bottom: 1100px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+}
+.div-cafes5{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+    left: 549px;
+    bottom: 1672px;
+}
+.div-cafes6{
+    position: relative;
+    width: 459px;
+    height: 560px;
+    border-radius: 8px;
+    background-color: #f7f1e6;
+    bottom: 2251px;
+    left: 1101px;
+}
+.section-meio{
+    
+    max-width: 90%;
+    position: relative;
+    width: 100%;
+    height: 904px;
+    position: relative;
+    bottom: 2156px;
+
+}
+.section-finish{
+    
+    max-width: 62%;
+    position: relative;
+    bottom: 2202px;
+    left: 58px;
+}
+.section-finish h2{
+    position: relative;
+    width: 470px;
+    height: 60px;
+    left: 20px;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 80%;
+    font-style: bold;
+    color: #0b1d03;
+    align-items: left;
+    vertical-align: top;
+}
+.ul-meio{
+    position: relative;
+    display: inline-block;
+    left: 149px;
+    top: 10px;
+}
+.ul-meio li{
+   display: inline-block;
+   width: 262px;
+   font-style: bold;
+   height: 52px;
+   font-size: 20px;
+   line-height: 26px;
+   color:#0b1d03
+}
+.input-cidade{
+    position: relative;
+    border-color: #0b1d03;
+    border-radius: 4px;
+    width: 459px;
+    height: 76px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #969696;
+    bottom: 10px;
+
+}
+.input-endereço{
+    position: relative;
+    width: 949px;
+    height: 76px;
+    border-radius: 4px;
+    border-color: #0b1d03;
+    color: #969696;
+    font-style: medium;
+    bottom: 10px;
+
+}
+footer{
+    
+    position: relative;
+    width: 100%;
+    height: 306px;
+    background-color: #f7f1e6;
+    bottom: 2148px;
+}
+footer h2{
+    
+    position: relative;
+    width: 151px;
+    height: 28px;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 28px;
+    line-height: 75%;
+    align-items: left;
+    vertical-align: center;
+    color: #0b1d03;
+    font-style: bold;
+    left: 50px;
+    top: 50px;
+}
+.list-footer{
+    position: relative;
+    position: relative;
+    left: 400px;
+    top: 93px;
+    font-size: 20px;
+    font-style: medium;
+
+
+}
+.lupa-endereco{
+    position: relative;
+    width: 20px;
+    bottom: 60px;
+    left: 1386px;
+}
+.inst{
+    position: relative;
+    left: 433px;
+    bottom: 15px;
+    font-size: 20px;
+}
+.section-institucional a{
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    left: 426px;
+    bottom: -50px;
+}
+
+.section-footer-img{
+    width: 200px;
+    max-width: 40%;
+}
+.h2-footer{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    position: relative;
+    left: 800px;
+    top: -106px;
+}
+.Produtos a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    color: black;
+    left: 800px;
+    bottom: 106px;
+}
+.ultima-section{
+    position: relative;
+    font-size: 23px;
+    font-style: medium;
+    left: 1200px;
+    top: -267px;
+    font-style: medium;
+    font-size: 20px;
+}
+.logos-sociais{
+    position: relative;
+    left: 1200px;
+    bottom: 269px;
+    width: 200px;
 }
